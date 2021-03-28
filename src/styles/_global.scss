@@ -1,0 +1,9 @@
+@use "variable";
+
+body {
+  margin: 0;
+  background-color: variable.$bg;
+  color: var(--text);
+  background: url("../img/banner_img_01.jpg");
+  font-size: 4rem;
+}
